@@ -4,6 +4,7 @@
 ## Tasks
 
 * [ ] Publish on Netlify
+* [ ] Use Navigation Plugin for menu highlighting
 * [ ] Home page intro and articles
 * [ ] Migrate posts from WordPress site
 * [ ] Categories page 
