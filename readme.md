@@ -3,7 +3,9 @@
 
 ## Tasks
 
+* [ ] Publish on Netlify
 * [ ] Home page intro and articles
+* [ ] Migrate posts from WordPress site
 * [ ] Categories page 
 * [ ] Build info
 * [ ] Stats page
@@ -28,4 +30,4 @@
 * [ ] 
 * [ ] 
 * [ ] 
-* [ ] 
+* [ ] Switch DNS to Netlify
