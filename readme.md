@@ -10,22 +10,19 @@
 * [x] Copy over the only image file
 * [x] Categories page 
 * [x] Pretty Print on Post
+* [ ] Fix code snippet for img tag to use this template's image class
 * [ ] Fix home page menu
+* [ ] Fix 11ty-cat-pages dealing with blank categories
 * [ ] Finish Home page
 * [ ] Add descriptions to posts
+* [ ] Add header images to posts
 * [ ] Use Navigation Plugin for menu highlighting
 * [ ] Upgrade GA property
 * [ ] Add Google Analytics
 * [ ] Top articles from Google Analytics
-* [ ] Fix 11ty-cat-pages dealing with blank categories
 * [ ] Add Algolia index
 * [ ] Add Search page
 * [ ] See if you can have only one main layout
-* [ ] 
-* [ ] 
-* [ ] 
-* [ ] 
-* [ ] 
 * [ ] 
 * [ ] 
 * [ ] 
@@ -34,3 +31,8 @@
 * [ ] Delete Fatcow domain
 * [ ] Delete Fatcow database
 * [ ] Delete Fatcow folder
+
+## Components
+
+Tempplate: https://pixelarity.com/arcana
+Favicon Generator: https://www.favicon-generator.org/
