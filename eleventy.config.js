@@ -5,7 +5,7 @@ const markdownItAttrs = require('markdown-it-attrs');
 const pluginDate = require('eleventy-plugin-date');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const embedYouTube = require('eleventy-plugin-youtube-embed');
-// const pluginStats = require('eleventy-plugin-post-stats');
+const pluginStats = require('eleventy-plugin-post-stats');
 
 // local plugins
 const pluginImages = require("./eleventy.config.images.js");
@@ -24,7 +24,7 @@ module.exports = eleventyConfig => {
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(pluginImages);
-	// eleventyConfig.addPlugin(pluginStats);
+	eleventyConfig.addPlugin(pluginStats);
 
 	// https://github.com/11ty/eleventy/issues/2301
 	const mdOptions = {

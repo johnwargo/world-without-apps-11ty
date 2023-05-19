@@ -3,13 +3,13 @@
 
 ## Tasks
 
-* [ ] Publish on Netlify
-* [ ] Use Navigation Plugin for menu highlighting
+* [x] Publish on Netlify
+* [x] Build info
+* [x] Migrate posts from WordPress site
+* [x] Stats page
 * [ ] Home page intro and articles
-* [ ] Migrate posts from WordPress site
+* [ ] Use Navigation Plugin for menu highlighting
 * [ ] Categories page 
-* [ ] Build info
-* [ ] Stats page
 * [ ] Pretty Print on Post
 * [ ] Upgrade GA property
 * [ ] Add Google Analytics
