@@ -8,10 +8,10 @@
 * [x] Migrate posts from WordPress site
 * [x] Stats page
 * [x] Copy over the only image file
+* [x] Categories page 
+* [x] Pretty Print on Post
 * [ ] Home page intro and articles
 * [ ] Use Navigation Plugin for menu highlighting
-* [ ] Categories page 
-* [ ] Pretty Print on Post
 * [ ] Upgrade GA property
 * [ ] Add Google Analytics
 * [ ] Add Algolia index
