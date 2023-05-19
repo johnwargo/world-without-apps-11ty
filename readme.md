@@ -10,14 +10,16 @@
 * [x] Copy over the only image file
 * [x] Categories page 
 * [x] Pretty Print on Post
-* [ ] Home page intro and articles
+* [ ] Fix home page menu
+* [ ] Finish Home page
 * [ ] Use Navigation Plugin for menu highlighting
 * [ ] Upgrade GA property
 * [ ] Add Google Analytics
+* [ ] Top articles from Google Analytics
+* [ ] Fix 11ty-cat-pages dealing with blank categories
 * [ ] Add Algolia index
 * [ ] Add Search page
-* [ ] Top articles from Google Analytics
-* [ ] 
+* [ ] See if you can have only one main layout
 * [ ] 
 * [ ] 
 * [ ] 

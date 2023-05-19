@@ -12,39 +12,95 @@ layout: home
 
 {% assign latest_posts = collections.posts | reverse %}
 
-<section>
-  <h2>
-    <a href="{{ "/" | htmlBaseUrl }}articles">Recent Posts</a>
-  </h2>
-  <ul class="posts">
-    {% for post in latest_posts limit: 10 %}
-      <li>
-        <h4>
-          <a style="cursor: pointer" href="{{post.url}}">{{ post.data.title }}</a>
-        </h4>
-        <span class="date">
-          <strong>
-            Date:
-          </strong>
-          {{ post.date | readableDate }}
-          {% if post.data.categories.length > 0 %}
-            |
-            <strong>
-              Categories:
-            </strong>
-            {% for cat in post.data.categories %}
-              <a href="/categories/{{ cat | slugify }}">{{ cat | strip }}</a>
-              {%- unless forloop.last %},
-              {% endunless %}
-            {% endfor %}
-          {% endif %}
-        </span>
-        {% if post.data.description %}
-          {{ post.data.description }}
-        {% else %}
-          {% excerpt post %}
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
-</section>
+
+<div class="row gtr-200">
+  <div class="col-4 col-12-narrower">
+    <div id="sidebar">
+      <section>
+        <h3>Ante sit Adipiscing</h3>
+        <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus. Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat. Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis et nisi etiam.</p>
+        <footer>
+          <a href="#" class="button">Continue Reading</a>
+        </footer>
+      </section>
+
+      <section>
+        <h3>Popular Articles</h3>
+        <ul class="links">
+          <li>
+            <a href="#">Amet turpis, feugiat et sit amet</a>
+          </li>
+          <li>
+            <a href="#">Ornare in hendrerit in lectus</a>
+          </li>
+          <li>
+            <a href="#">Semper mod quis eget mi dolore</a>
+          </li>
+          <li>
+            <a href="#">Consequat etiam lorem phasellus</a>
+          </li>
+          <li>
+            <a href="#">Amet turpis, feugiat et sit amet</a>
+          </li>
+          <li>
+            <a href="#">Semper mod quisturpis nisi</a>
+          </li>
+        </ul>
+        <footer>
+          <a href="#" class="button">More Random Links</a>
+        </footer>
+      </section>
+
+    </div>
+  </div>
+  <div class="col-8  col-12-narrower imp-narrower">
+    <div id="content">
+
+      <article>
+        <span class="image featured"><img src="images/cropped-wwa-header-cropped-1200.png" alt="" /></span>
+        <header>
+          <h2>Living in a World Without Apps</h2>
+          <p>Natoque in sed morbi, commodo at cep aenean.</p>
+        </header>
+        <p>Hamburger ball tip pastrami swine salami. Alcatra short loin pork drumstick pork loin shoulder t-bone. Ribeye beef ribs rump biltong cow shank. Cow filet mignon alcatra spare ribs brisket drumstick jowl venison turkey capicola buffalo.</p>
+        <p>Sirloin ham fatback, pork loin jowl ribeye landjaeger pork chop burgdoggen bacon turkey flank meatball chislic capicola. Frankfurter ball tip rump pig chuck tongue beef ribs bacon jerky sausage swine. Boudin drumstick doner, shoulder filet mignon flank short ribs pig sirloin pork t-bone strip steak bresaola. Corned beef tri-tip shoulder shank cupim buffalo. Alcatra ribeye beef ribs jowl kielbasa tail biltong bacon landjaeger pork loin t-bone. Boudin shank rump frankfurter beef ribs landjaeger shankle cupim leberkas sausage spare ribs tongue chicken ground round corned beef. Biltong kielbasa turducken frankfurter ribeye spare ribs tail bacon corned beef.</p>
+        <p>Cupim beef flank alcatra. Pork chop turducken chicken buffalo flank tenderloin. Porchetta t-bone tail, shank bresaola pork fatback meatball. Ham chuck sausage tail.</p>
+      </article>
+
+      <h2>
+        <a href="{{ "/" | htmlBaseUrl }}articles">Recent Posts</a>
+      </h2>
+      <ul class="links">
+        {% for post in latest_posts limit: 10 %}
+          <li>
+            <h4>
+              <a style="cursor: pointer" href="{{post.url}}">{{ post.data.title }}</a>
+            </h4>
+            <span class="date">
+              <strong>
+                Date:
+              </strong>
+              {{ post.date | readableDate }}
+              {% if post.data.categories.length > 0 %}
+                |
+                <strong>
+                  Categories:
+                </strong>
+                {% for cat in post.data.categories %}
+                  <a href="/categories/{{ cat | slugify }}">{{ cat | strip }}</a>
+                  {%- unless forloop.last %},
+                  {% endunless %}
+                {% endfor %}
+              {% endif %}
+            </span>
+            {% if post.data.description %}
+              {{ post.data.description }}
+            {% else %}
+              {% excerpt post %}
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
