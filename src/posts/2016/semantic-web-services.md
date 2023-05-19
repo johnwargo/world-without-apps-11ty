@@ -13,9 +13,7 @@ Regardless of how WWA is implemented, there’s a core piece of technology that 
 
 However, sometimes search doesn’t work that well for consumers as shown in the following figure. In this example, I asked Siri how long it would take me to drive to the moon. A reasonable question, I thought; I was watching a special on the Apollo program and I was curious. Siri heard my question correctly as you can see from the figure (although she skipped adding a question mark for some reason), but even when correctly ascertaining the meaning of my words, she still didn’t get it and instead told me how long it would take me to drive to Howl at the Moon (I didn’t even know we had one of those locally).
 
-Siri's Silly Answer
-
-INSERT IMAGE HERE
+{% image "src/images/2016/siri-drive-to-the-moon-cropped.png", "Siri's Silly Answer", "image-full" %}
 
 For voice interaction to work (whether it’s through an app or some universal agent), the data aggregator (the agent) has to know how to know a lot of different things. It has to know things, and it has to know how it knows things or at least where to find things. I’m not talking about Watson playing Jeopardy, but some sort of universal agent that just, well, knows things.
 

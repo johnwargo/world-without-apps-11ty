@@ -1,0 +1,28 @@
+{
+	"Anchor Link": {
+		"scope": "markdown, liquid",
+		"prefix": "!link",
+		"body": [
+			"[](){target=\"_blank\"}"
+		],
+		"description": "Anchor Link with Target"
+	},
+	"IMG": {
+		"scope": "markdown, liquid",
+		"prefix": "!img",
+		"body": [
+			"{% image \"src/images/2023/\", \"\", \"image-full\" %}"
+		],
+		"description": "Image Tag"
+	},
+	"Liquid Highlight": {
+		"scope": "markdown",
+		"prefix": "%liquid",
+		"body": [
+			"{% highlight liquid %}",
+			"",
+			"{% endhighlight %}"
+		],
+		"description": "Liquid Code Block"
+	}
+}
