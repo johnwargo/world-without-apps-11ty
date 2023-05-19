@@ -7,6 +7,7 @@
 * [x] Build info
 * [x] Migrate posts from WordPress site
 * [x] Stats page
+* [ ] Copy over the only image file
 * [ ] Home page intro and articles
 * [ ] Use Navigation Plugin for menu highlighting
 * [ ] Categories page 
