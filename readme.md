@@ -12,6 +12,7 @@
 * [x] Pretty Print on Post
 * [ ] Fix home page menu
 * [ ] Finish Home page
+* [ ] Add descriptions to posts
 * [ ] Use Navigation Plugin for menu highlighting
 * [ ] Upgrade GA property
 * [ ] Add Google Analytics
