@@ -30,9 +30,7 @@
 * [ ] 
 * [ ] 
 * [ ] 
-* [ ] 
-* [ ] 
-* [ ] 
-* [ ] 
-* [ ] 
 * [ ] Switch DNS to Netlify
+* [ ] Delete Fatcow domain
+* [ ] Delete Fatcow database
+* [ ] Delete Fatcow folder
