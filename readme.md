@@ -10,8 +10,8 @@
 * [x] Copy over the only image file
 * [x] Categories page 
 * [x] Pretty Print on Post
-* [ ] Fix code snippet for img tag to use this template's image class
-* [ ] Fix home page menu
+* [x] Fix code snippet for img tag to use this template's image class
+* [x] Fix home page menu
 * [ ] Fix 11ty-cat-pages dealing with blank categories
 * [ ] Finish Home page
 * [ ] Add descriptions to posts

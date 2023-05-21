@@ -3,7 +3,7 @@ tags: post
 title: Amazon Alexa is Not Artificial Intelligence
 description: 
 date: 2017-09-06
-headerImage: 
+headerImage: /images/cropped-wwa-header-cropped-1200.png
 categories: 
   - Artificial Intelligence
 ---

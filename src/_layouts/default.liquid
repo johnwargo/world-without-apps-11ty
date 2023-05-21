@@ -163,24 +163,12 @@ License: pixelarity.com/license
           </li>
         </ul>
 
-        <!-- Copyright -->
-        <div class="copyright">
-          <ul class="menu">
-            <li>&copy; Untitled. All rights reserved</li>
-          </ul>
-        </div>
-
+        {% include 'copyright.html' %}
       </div>
 
     </div>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.dropotron.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+    {% include 'page-scripts.html' %}
 
   </body>
 </html>

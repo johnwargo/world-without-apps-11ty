@@ -7,7 +7,7 @@ categories:
   - Machine Learning
   - Natural Language Processing
   - NLP
-layout: home
+layout: default
 ---
 
 {% assign latest_posts = collections.posts | reverse %}
@@ -57,7 +57,7 @@ layout: home
     <div id="content">
 
       <article>
-        <span class="image featured"><img src="images/cropped-wwa-header-cropped-1200.png" alt="" /></span>
+        <span class="image featured"><img src="/images/cropped-wwa-header-cropped-1200.png" alt="" /></span>
         <header>
           <h2>Living in a World Without Apps</h2>
           <p>Natoque in sed morbi, commodo at cep aenean.</p>
@@ -70,37 +70,42 @@ layout: home
       <h2>
         <a href="{{ "/" | htmlBaseUrl }}articles">Recent Posts</a>
       </h2>
-      <ul class="links">
-        {% for post in latest_posts limit: 10 %}
-          <li>
-            <h4>
-              <a style="cursor: pointer" href="{{post.url}}">{{ post.data.title }}</a>
-            </h4>
-            <span class="date">
+
+
+      {% for post in latest_posts limit: 10 %}
+        <article>
+          {% if post.headerImage %}
+            <span class="image featured"><img src="{{ post.data.headerImage }}" alt="" /></span>
+          {% endif %}
+          <header>
+            <h3>
+              <a href="{{post.url}}">{{ post.data.title }}</a>
+            </h3>
+          </header>
+          <p>
+            <strong>
+              Date:
+            </strong>
+            {{ post.date | readableDate }}
+            {% if post.data.categories.length > 0 %}
+              |
               <strong>
-                Date:
+                Categories:
               </strong>
-              {{ post.date | readableDate }}
-              {% if post.data.categories.length > 0 %}
-                |
-                <strong>
-                  Categories:
-                </strong>
-                {% for cat in post.data.categories %}
-                  <a href="/categories/{{ cat | slugify }}">{{ cat | strip }}</a>
-                  {%- unless forloop.last %},
-                  {% endunless %}
-                {% endfor %}
-              {% endif %}
-            </span>
-            {% if post.data.description %}
-              {{ post.data.description }}
-            {% else %}
-              {% excerpt post %}
+              {% for cat in post.data.categories %}
+                <a href="/categories/{{ cat | slugify }}">{{ cat | strip }}</a>
+                {%- unless forloop.last %},
+                {% endunless %}
+              {% endfor %}
             {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
+          </p>
+          {% if post.data.description %}
+            {{ post.data.description }}
+          {% else %}
+            {% excerpt post %}
+          {% endif %}
+        </article>
+      {% endfor %}
     </div>
   </div>
 </div>
