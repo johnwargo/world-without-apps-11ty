@@ -2,16 +2,16 @@
   {
     "category": "Artificial Intelligence",
     "count": 1,
-    "description": ""
+    "description": "Posts discussing Artificial Intelligence and Machine Learning."
   },
   {
     "category": "Natural Language Processing",
     "count": 2,
-    "description": ""
+    "description": "Posts discussing Natural Language Processing."
   },
   {
     "category": "Uncategorized",
     "count": 8,
-    "description": ""
+    "description": "Posts without any category assigned."
   }
 ]
