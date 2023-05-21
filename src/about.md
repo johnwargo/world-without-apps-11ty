@@ -1,7 +1,7 @@
 ---
 title: About
 description: About this site and why I created it.
-layout: generic
+layout: default
 ---
 
 Many years ago, too many to count, I was fascinated with the Apple Newton and something that John Scully called the Knowledge Navigator. Essentially the idea was that you would have a device you could interact with and would act as your personal digital assistant. You can watch a promo of the Knowledge Navigator below:

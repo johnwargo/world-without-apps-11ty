@@ -11,8 +11,8 @@
 * [x] Pretty Print on Post
 * [x] Fix code snippet for img tag to use this template's image class
 * [x] Fix home page menu
+* [x] Finish Home page
 * [ ] Fix 11ty-cat-pages dealing with blank categories and multiple categories
-* [ ] Finish Home page
 * [ ] Add descriptions to posts
 * [ ] Add header images to posts
 * [ ] Use Navigation Plugin for menu highlighting
