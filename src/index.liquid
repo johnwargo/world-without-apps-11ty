@@ -17,14 +17,6 @@ layout: default
   <div class="col-4 col-12-narrower">
     <div id="sidebar">
       <section>
-        <h3>Ante sit Adipiscing</h3>
-        <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus. Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat. Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis et nisi etiam.</p>
-        <footer>
-          <a href="#" class="button">Continue Reading</a>
-        </footer>
-      </section>
-
-      <section>
         <h3>Popular Articles</h3>
         <ul class="links">
           <li>
@@ -47,7 +39,7 @@ layout: default
           </li>
         </ul>
         <footer>
-          <a href="#" class="button">More Random Links</a>
+          <a href="/articles" class="button">All Articles</a>
         </footer>
       </section>
 
@@ -72,7 +64,7 @@ layout: default
       </h2>
 
 
-      {% for post in latest_posts limit: 10 %}
+      {% for post in latest_posts limit: 5 %}
         <article>
           {% if post.headerImage %}
             <span class="image featured"><img src="{{ post.data.headerImage }}" alt="" /></span>
