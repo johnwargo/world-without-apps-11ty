@@ -10,7 +10,7 @@
   "category": "Natural Language Processing",
   "description": "Posts discussing Natural Language Processing.",
   "eleventyComputed": {
-    "title": "Category: {{ category }}"
+    "title": "{{ category }}"
   },
   "permalink": "categories/{{ category | slugify }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
 }

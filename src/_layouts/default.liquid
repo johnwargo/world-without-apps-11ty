@@ -41,8 +41,11 @@ License: pixelarity.com/license
       <!-- Main -->
       <section class="wrapper style1">
         <div class="container">
+          {% if headerImage %}
+            <span class="image featured"><img src="{{ headerImage }}" alt="" /></span>
+          {% endif %}
           {% if title %}
-            <h1>{{ title }}</h1>
+            <h2>{{ title }}</h2>
           {% endif %}
           {{ content }}
         </div>
