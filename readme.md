@@ -12,16 +12,16 @@
 * [x] Fix code snippet for img tag to use this template's image class
 * [x] Fix home page menu
 * [x] Finish Home page
-* [ ] Fix 11ty-cat-pages dealing with blank categories and multiple categories
+* [ ] Add categories to posts
 * [ ] Add descriptions to posts
 * [ ] Add header images to posts
 * [ ] Use Navigation Plugin for menu highlighting
+* [ ] Fix 11ty-cat-pages dealing with blank categories and multiple categories
 * [ ] Upgrade GA property
 * [ ] Add Google Analytics
 * [ ] Top articles from Google Analytics
 * [ ] Add Algolia index
 * [ ] Add Search page
-* [ ] See if you can have only one main layout
 * [ ] 
 * [ ] 
 * [ ] 
