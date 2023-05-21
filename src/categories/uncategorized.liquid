@@ -5,10 +5,10 @@
     "data": "collections.post",
     "size": 20,
     "alias": "catposts",
-    "before": "function(paginationData, fullData){ let data = paginationData.filter((item) => item.data.categories.length == 0); return Array.from(data).sort((a, b) => { return a.date < b.date ? 1 : -1; });\n            }"
+    "before": "function(paginationData, fullData){ let data = paginationData.filter((item) => item.data.categories.length == 0); return Array.from(data).sort((a, b) => { return a.date < b.date ? 1 : -1; });}"
   },
   "category": "Uncategorized",
-  "description": null,
+  "description": "Posts without any category assigned.",
   "eleventyComputed": {
     "title": "Category: {{ category }}"
   },
