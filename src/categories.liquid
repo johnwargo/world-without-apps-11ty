@@ -8,16 +8,13 @@ layout: generic
 
 <p>View all posts for a particular category by clicking on one of the categories listed below. There are {{ categories.length }} categories on the site today.</p>
 
-
 {% for catData in categories %}
   <article>
     <h4>
-      <a href="{{ "/" | htmlBaseUrl }}categories/{{ catData.category | slugify }}/">{{ catData.category }}</a>
+      <a href="{{ "/" | htmlBaseUrl }}categories/{{ catData.category | slugify }}/">{{ catData.category }}</a>&nbsp;<span>(Count: {{ catData.count }})</span>
     </h4>
-    Count: {{ catData.count }}
     {% if catData.description.length > 0 %}
-      |
-      {{ catData.description }}
+      <p>{{ catData.description }}</p>
     {% endif %}
   </article>
 {% endfor %}
