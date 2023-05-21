@@ -1,6 +1,5 @@
 # A World Without Apps Static (11ty)
 
-
 ## Tasks
 
 * [x] Publish on Netlify
