@@ -12,11 +12,10 @@
 * [x] Fix code snippet for img tag to use this template's image class
 * [x] Fix home page menu
 * [x] Finish Home page
-* [ ] Right-justify Coffee button
-* [ ] Add categories to posts
-* [ ] Add descriptions to posts
-* [ ] Add header images to posts
+* [x] Add header images to posts
 * [ ] Use Navigation Plugin for menu highlighting
+* [ ] Right-justify Coffee button
+* [ ] Add descriptions to posts
 * [ ] Fix 11ty-cat-pages dealing with blank categories and multiple categories
 * [ ] Upgrade GA property
 * [ ] Add Google Analytics
