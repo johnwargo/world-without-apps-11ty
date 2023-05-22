@@ -3,8 +3,9 @@ tags: post
 title: Voice-enabled Agents Everywhere
 description: 
 date: 2016-08-03
-headerImage: 
-categories: []
+headerImage: /images/voice-control-cropped.png
+categories: 
+  - Natural Labguage Processing
 ---
 
 One of the reasons I became so certain that we were entering the age of no apps is the rise of voice agents. My BlackBerry had voice control capabilities years ago and Android and iOS both added capabilities well. My 2007 car supported an option for voice control, but I never installed one. The precipice was when I purchased an Amazon Echo for the kitchen. I’d started using Google Now and Siri for things, random searches, phone calls and opening apps, but when the Echo came into the house, it changed music for me.

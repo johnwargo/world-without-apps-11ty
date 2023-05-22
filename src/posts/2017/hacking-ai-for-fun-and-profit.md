@@ -3,7 +3,7 @@ tags: post
 title: Hacking AI for Fun and Profit
 description: 
 date: 2017-06-09
-headerImage: 
+headerImage:
 categories: 
   - Natural Language Processing
 ---
@@ -11,6 +11,8 @@ categories:
 I knew all along that AI was a component of the World Without Apps. What I didn’t expect was how quickly AI-driven actions would become a home-grown option. I subscribe to The Mag Pi magazine (a publication from the Raspberry Pi Foundation) and even got my first project published in the current issue (https://www.raspberrypi.org/magpi/issues/58/).
 
 In the previous issue, the magazine included the complete Voice Kit AI project from the Google AIY (AI Yourself) project – basically a complete Google Assistant including an enclosure, speaker, button, Audio HAT, and more. My son and I quickly assembled the project, and now he has an almost Google Home device in his bedroom. This is absolutely interesting because Google funded sending thousands of these devices all around the world, but more interesting is that the core project here is extensible. The project runs on a Raspberry Pi, and you can add commands to the Google Assistant project code. Once you do that, you basically write the code to respond to your specific voice commands and you can make this device do anything, absolutely anything.
+
+{% image "src//images/google-aiy-project-complete.jpg", "Google AIY Project", "image featured" %}
 
 Your regular Google Assistant go to the cloud for execution (searches, weather reports and so on), but, if you connect some specialized hardware to it (not something specific, but any hardware you can control from the Raspberry Pi) and correspondingly add your own code, suddenly your project becomes much more interesting.
 

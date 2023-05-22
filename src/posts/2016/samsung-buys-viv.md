@@ -3,7 +3,7 @@ tags: post
 title: Samsung Buys Viv
 description: 
 date: 2016-10-07
-headerImage: 
+headerImage: /images/Fotolia_73244214_XS.jpg
 categories:
   - Natural Language Processing
 ---

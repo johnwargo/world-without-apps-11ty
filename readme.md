@@ -23,10 +23,6 @@
 * [ ] Top articles from Google Analytics
 * [ ] Add Algolia index
 * [ ] Add Search page
-* [ ] 
-* [ ] 
-* [ ] 
-* [ ] 
 * [ ] Switch DNS to Netlify
 * [ ] Delete Fatcow domain
 * [ ] Delete Fatcow database

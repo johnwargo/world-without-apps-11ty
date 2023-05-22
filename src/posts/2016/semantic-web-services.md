@@ -3,7 +3,7 @@ tags: post
 title: Semantic Web Services
 description: 
 date: 2016-08-04
-headerImage: 
+headerImage: /images/connections-cropped.png
 categories: []
 ---
 
