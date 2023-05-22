@@ -1,7 +1,7 @@
 ---
 tags: post
 title: When the WWA Overlaps the Physical World
-description: 
+description: Describes my surprised when my digital presence appeared in the real world.
 date: 2017-08-28
 headerImage: 
 categories: []

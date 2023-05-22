@@ -1,7 +1,7 @@
 ---
 tags: post
 title: Hacking AI for Fun and Profit
-description: 
+description: My reaction to the Google AIY project.
 date: 2017-06-09
 headerImage:
 categories: 

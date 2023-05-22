@@ -14,12 +14,13 @@
 * [x] Finish Home page
 * [x] Add header images to posts
 * [x] Use Navigation Plugin for menu highlighting
-* [ ] Add descriptions to posts
+* [x] Add descriptions to posts
 * [ ] Right-justify Coffee button
 * [ ] Fix 11ty-cat-pages dealing with blank categories and multiple categories
 * [ ] Upgrade GA property
 * [ ] Add Google Analytics
 * [ ] Top articles from Google Analytics
+* [ ] Adopt algolia-idxup to use a local database file instead of the registry
 * [ ] Add Algolia index
 * [ ] Add Search page
 * [ ] Switch DNS to Netlify
