@@ -15,8 +15,7 @@
 * [x] Add header images to posts
 * [x] Use Navigation Plugin for menu highlighting
 * [x] Add descriptions to posts
-* [ ] Right-justify Coffee button
-* [ ] Fix 11ty-cat-pages dealing with blank categories and multiple categories
+* [x] Fix 11ty-cat-pages dealing with blank categories and multiple categories
 * [ ] Upgrade GA property
 * [ ] Add Google Analytics
 * [ ] Top articles from Google Analytics
