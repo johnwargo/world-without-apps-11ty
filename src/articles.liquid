@@ -2,6 +2,9 @@
 title: Articles
 description: All posts in reverse chronological order.
 layout: default
+eleventyNavigation:
+  key: Articles
+  order: 2
 pagination:
   data: collections.post
   size: 20
@@ -38,6 +41,7 @@ pagination:
       {% excerpt post %}
     {% endif %}
   </article>
+  <br/>
 {% endfor %}
 
 {% include 'pagination-nav.html' %}

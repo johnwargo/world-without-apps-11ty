@@ -2,6 +2,9 @@
 title: Glossary
 description: Terms used in this site described.
 layout: default
+eleventyNavigation:
+  key: Glossary
+  order: 5
 ---
 
 * **FPAG:** Fingers Poking at Glass

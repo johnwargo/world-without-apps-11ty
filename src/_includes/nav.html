@@ -1,22 +1,11 @@
+{% assign navPages = collections.all | eleventyNavigation %}
+
 <nav id="nav">
   <ul>
-    <li class="current">
-      <a href="{{ "/" | htmlBaseUrl }}">Home</a>
-    </li>    
-    <li>
-      <a href="{{ "/" | htmlBaseUrl }}articles">Articles</a>
-    </li>
-    <li>
-      <a href="{{ "/" | htmlBaseUrl }}categories">Categories</a>
-    </li>
-    <li>
-      <a href="{{ "/" | htmlBaseUrl }}search">Search</a>
-    </li>
-    <li>
-      <a href="{{ "/" | htmlBaseUrl }}glossary">Glossary</a>
-    </li>
-    <li>
-      <a href="{{ "/" | htmlBaseUrl }}about">About</a>
-    </li>
-  </ul>
+    {%- for entry in navPages %}
+      <li{% if entry.url == page.url %} class="current"{% endif %}>
+        <a href="{{ entry.url }}">{{ entry.title }}</a>
+      </li>
+    {%- endfor %}
+    </ul>    
 </nav>

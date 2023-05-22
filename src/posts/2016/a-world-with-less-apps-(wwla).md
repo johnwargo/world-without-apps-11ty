@@ -1,7 +1,7 @@
 ---
 tags: post
 title: A World With Less Apps (WWLA)
-description: 
+description: Describes an alternative view of the World Without Apps, the World With Less Apps.
 date: 2016-08-02
 headerImage: 
 categories: []

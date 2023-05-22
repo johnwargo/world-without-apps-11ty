@@ -1,7 +1,7 @@
 ---
 tags: post
 title: What is the World Without Apps (WWA)?
-description: 
+description: Introduces this site and the World Without Apps.
 date: 2016-08-01
 headerImage: 
 categories: []

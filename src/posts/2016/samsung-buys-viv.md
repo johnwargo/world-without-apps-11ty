@@ -1,7 +1,7 @@
 ---
 tags: post
 title: Samsung Buys Viv
-description: 
+description: I expected Viv to be a big deal only to learn that Samsung was buying the company.
 date: 2016-10-07
 headerImage: /images/Fotolia_73244214_XS.jpg
 categories:

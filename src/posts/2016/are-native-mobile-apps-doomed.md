@@ -1,7 +1,7 @@
 ---
 tags: post
 title: Are Native Mobile Apps Doomed?
-description: 
+description: References several articles online describing how mobile apps are dead.
 date: 2016-11-17
 headerImage: 
 categories: []

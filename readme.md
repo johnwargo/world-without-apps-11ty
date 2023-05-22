@@ -13,9 +13,9 @@
 * [x] Fix home page menu
 * [x] Finish Home page
 * [x] Add header images to posts
-* [ ] Use Navigation Plugin for menu highlighting
-* [ ] Right-justify Coffee button
+* [x] Use Navigation Plugin for menu highlighting
 * [ ] Add descriptions to posts
+* [ ] Right-justify Coffee button
 * [ ] Fix 11ty-cat-pages dealing with blank categories and multiple categories
 * [ ] Upgrade GA property
 * [ ] Add Google Analytics

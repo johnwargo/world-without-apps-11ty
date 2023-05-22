@@ -1,7 +1,7 @@
 ---
 tags: post
 title: Semantic Web Services
-description: 
+description: Expanding the concept of the Semantec Web to Semantic Web Services.
 date: 2016-08-04
 headerImage: /images/connections-cropped.png
 categories: []
