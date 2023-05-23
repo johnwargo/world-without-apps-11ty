@@ -93,11 +93,13 @@ eleventyNavigation:
               {% endfor %}
             {% endif %}
           </p>
-          {% if post.data.description %}
-            {{ post.data.description }}
-          {% else %}
-            {% excerpt post %}
-          {% endif %}
+          <p>
+            {% if post.data.description %}
+              {{ post.data.description }}
+            {% else %}
+              {% excerpt post %}
+            {% endif %}
+          </p>
         </article>
       {% endfor %}
     </div>
