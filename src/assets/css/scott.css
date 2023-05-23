@@ -2,3 +2,7 @@ article h4 span {
   font-weight: normal;
   text-transform: lowercase;
 }
+
+article h4 {
+   margin-bottom: 0;
+}
