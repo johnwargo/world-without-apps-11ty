@@ -1,5 +1,8 @@
 # A World Without Apps Static (11ty)
 
+Static web site for [A World Without Apps](https://aworldwithoutappc.com).
+Netlify working site: [A World Without Apps](https://world-without-apps.netlify.app).
+
 ## Tasks
 
 * [x] Publish on Netlify
