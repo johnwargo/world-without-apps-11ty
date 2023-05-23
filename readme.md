@@ -20,11 +20,11 @@ Netlify working site: [A World Without Apps](https://world-without-apps.netlify.
 * [x] Add descriptions to posts
 * [x] Fix 11ty-cat-pages dealing with blank categories and multiple categories
 * [x] Adopt algolia-idxup to use a local database file instead of the registry
+* [ ] Add Algolia index
+* [ ] Add Search page
 * [ ] Upgrade GA property
 * [ ] Add Google Analytics
 * [ ] Top articles from Google Analytics
-* [ ] Add Algolia index
-* [ ] Add Search page
 * [ ] Switch DNS to Netlify
 * [ ] Delete Fatcow domain
 * [ ] Delete Fatcow database
