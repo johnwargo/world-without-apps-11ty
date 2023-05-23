@@ -25,6 +25,8 @@ Netlify working site: [A World Without Apps](https://world-without-apps.netlify.
 * [ ] Add Algolia index
 * [ ] Add Search page
 * [ ] Top articles from Google Analytics
+* [ ] Setup prod environment variable on netlify
+* [ ] Add domain to netlify
 * [ ] Switch DNS to Netlify
 * [ ] Delete Fatcow domain
 * [ ] Delete Fatcow database
