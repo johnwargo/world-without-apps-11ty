@@ -67,7 +67,7 @@ eleventyNavigation:
 
       {% for post in latest_posts limit: 5 %}
         <article>
-          {% if post.headerImage %}
+          {% if post.data.headerImage %}
             <span class="image featured"><img src="{{ post.data.headerImage }}" alt="" /></span>
           {% endif %}
           <h4>
