@@ -6,6 +6,8 @@ categories:
   - Artificial Intelligence
   - Machine Learning
   - Natural Language Processing
+  - AI
+  - ML
   - NLP
 layout: default
 eleventyNavigation:
@@ -19,26 +21,17 @@ eleventyNavigation:
   <div class="col-4 col-12-narrower">
     <div id="sidebar">
       <section>
-        <h3>Popular Articles</h3>
+
+        <h3>
+          <a href="/popular">Most Viewed Posts</a>
+        </h3>
         <ul class="links">
-          <li>
-            <a href="#">Amet turpis, feugiat et sit amet</a>
-          </li>
-          <li>
-            <a href="#">Ornare in hendrerit in lectus</a>
-          </li>
-          <li>
-            <a href="#">Semper mod quis eget mi dolore</a>
-          </li>
-          <li>
-            <a href="#">Consequat etiam lorem phasellus</a>
-          </li>
-          <li>
-            <a href="#">Amet turpis, feugiat et sit amet</a>
-          </li>
-          <li>
-            <a href="#">Semper mod quisturpis nisi</a>
-          </li>
+          {% for item in popularArticles limit: 10 %}
+            <li>
+              <a href="{{ item.url }}">
+                {{ item.title }}</a>
+            </li>
+          {% endfor %}
         </ul>
         <footer>
           <a href="/articles" class="button">All Articles</a>
