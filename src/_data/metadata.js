@@ -1,6 +1,6 @@
 module.exports = {
 	title: "A World Without Apps",
-	url: "https://aworldwithoutapps.com/",
+	url: "https://aworldwithoutapps.com",
 	language: "en",
 	description: "Articles and information about a world without apps.",
 	author: {

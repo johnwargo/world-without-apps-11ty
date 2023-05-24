@@ -101,6 +101,7 @@ module.exports = eleventyConfig => {
 	// copy the rest of the files
 	[
 		// Data files
+		"src/robots.txt",
 		"src/_data/*",
 		// Template files
 		"src/assets/css/",
