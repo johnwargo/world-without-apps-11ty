@@ -25,7 +25,7 @@ Netlify working site: [A World Without Apps](https://world-without-apps.netlify.
 * [x] Upgrade GA property
 * [x] Add Google Analytics
 * [x] Top articles from Google Analytics
-* [ ] Google Webmaster tools submission (and HTML file)
+* [ ] Update home page content
 * [ ] Add Algolia index
 * [ ] Add Search page
 * [ ] Setup prod environment variable on netlify
@@ -34,6 +34,7 @@ Netlify working site: [A World Without Apps](https://world-without-apps.netlify.
 * [ ] Delete Fatcow domain
 * [ ] Delete Fatcow database
 * [ ] Delete Fatcow folder
+* [ ] Submit sitemap to Google Search Console
 
 ## Components
 

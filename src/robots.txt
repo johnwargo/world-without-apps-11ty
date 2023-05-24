@@ -1,4 +1,4 @@
-Sitemap: https://johnwargo.com/sitemap.xml
+Sitemap: https://aworldwithoutapps.com/sitemap.xml
 
 User-agent: *
 Disallow:
