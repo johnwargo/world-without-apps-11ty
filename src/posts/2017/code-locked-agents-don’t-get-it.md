@@ -1,6 +1,6 @@
 ---
 tags: post
-title: Code-locked Agents Don’t Get It
+title: Code-locked Agents Do Not Get It
 description: Describes failings in Alexa when it comes to connecting weather requests to the actual weather forecast.
 date: 2017-01-06
 headerImage: 

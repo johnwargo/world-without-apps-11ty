@@ -24,7 +24,7 @@ Netlify working site: [A World Without Apps](https://world-without-apps.netlify.
 * [x] Adopt algolia-idxup to use a local database file instead of the registry
 * [x] Upgrade GA property
 * [x] Add Google Analytics
-* [ ] Top articles from Google Analytics
+* [x] Top articles from Google Analytics
 * [ ] Google Webmaster tools submission (and HTML file)
 * [ ] Add Algolia index
 * [ ] Add Search page
