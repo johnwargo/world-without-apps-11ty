@@ -8,11 +8,13 @@ categories:
   - Miscellaneous
 ---
 
-Bacon ipsum dolor amet drumstick chislic strip steak tongue ham hock, alcatra bacon sausage tri-tip andouille spare ribs pork belly boudin. Ground round venison turducken ribeye, kevin ham pork chop short loin capicola picanha turkey tail chicken tenderloin. Drumstick andouille tenderloin filet mignon venison shankle. Ball tip buffalo ribeye landjaeger kielbasa. Chuck bresaola pastrami biltong pork chop pig alcatra boudin tongue. Chislic prosciutto ball tip, shankle porchetta picanha kevin swine bresaola strip steak pig pork doner cupim.
+As I wrote [here](/about), I started this site because I saw that mobile apps would become less important as voice control systems using Natural Language Processing would replace some of the functionality provided by apps. I wrote a few articles over two years, then got busy with other things and let the site wane.
 
-Kielbasa tri-tip shank swine ground round porchetta. Porchetta brisket corned beef boudin cupim jerky chislic rump ground round pork belly beef ham hock. Ground round venison swine porchetta. Short ribs ground round picanha brisket chicken ham hock.
+Fast-forward six years and the capabilities of Machine Learning have exploded dramatically in solutions like [ChatGPT](https://openai.com/blog/chatgpt){target="_blank"} and [GitHub Copilot](https://github.com/features/copilot){target="_blank"}. I used Copilot since the early beta programs and love it and as I saw the world reacting to these new capabilities I decided to start writing here again.
 
-Chislic brisket tail pig, venison capicola salami. Pastrami boudin prosciutto shank leberkas chislic tri-tip cupim jerky tail. Spare ribs shoulder shank ball tip. Boudin bresaola ground round spare ribs. Boudin cupim prosciutto, jowl salami shoulder cow andouille capicola filet mignon pancetta frankfurter alcatra burgdoggen.
+The site hasa  new look and feel and some additional capabilities; I migrated the site to a new platform and new hosting provider. Search works now too, so that will make the site easier to use.
+
+I hope you enjoy this, lets see what happens here next.
 
 *** 
 

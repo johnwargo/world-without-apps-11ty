@@ -28,8 +28,8 @@ Netlify working site: [A World Without Apps](https://world-without-apps.netlify.
 * [x] Add Algolia index
 * [x] Update home page content
 * [x] Add Search page
+* [x] Setup prod environment variable on netlify
 * [ ] Add WWA Logo to the top of the page
-* [ ] Setup prod environment variable on netlify
 * [ ] Add domain to netlify
 * [ ] Switch DNS to Netlify
 * [ ] Delete Fatcow domain
