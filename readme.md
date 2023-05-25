@@ -29,13 +29,14 @@ Netlify working site: [A World Without Apps](https://world-without-apps.netlify.
 * [x] Update home page content
 * [x] Add Search page
 * [x] Setup prod environment variable on netlify
-* [ ] Add WWA Logo to the top of the page
-* [ ] Add domain to netlify
-* [ ] Switch DNS to Netlify
+* [x] Add domain to netlify
+* [x] Switch DNS to Netlify
+* [x] Add WWA Logo to the top of the page
+* [ ] Submit sitemap to Google Search Console
 * [ ] Delete Fatcow domain
 * [ ] Delete Fatcow database
 * [ ] Delete Fatcow folder
-* [ ] Submit sitemap to Google Search Console
+
 
 ## Components
 
