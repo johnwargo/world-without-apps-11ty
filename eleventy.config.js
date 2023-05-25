@@ -110,10 +110,8 @@ module.exports = eleventyConfig => {
 		"src/assets/webfonts/",
 		// Images folders
 		"src/images/*",
-		"src/images/avatar/*",
-		"src/images/common/*",
-		"src/images/covers/*",
-		"src/images/sites/*"
+		"src/images/headers/*",
+
 	].forEach((path) => {
 		eleventyConfig.addPassthroughCopy(path);
 	});

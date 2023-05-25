@@ -3,7 +3,7 @@ tags: post
 title: Amazon Alexa is Not Artificial Intelligence
 description: Debugs the concept that Alexa is AI, instead it's just a bunch of discrete Machine Learning models.
 date: 2017-09-06
-headerImage: /images/connections-cropped.png
+headerImage: /images/headers/connections-cropped.png
 categories: 
   - Artificial Intelligence
 ---
