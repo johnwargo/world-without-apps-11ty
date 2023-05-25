@@ -21,11 +21,10 @@ eleventyNavigation:
   <div class="col-4 col-12-narrower">
     <div id="sidebar">
       <section>
-
         <h3>
           <a href="/popular">Most Viewed Posts</a>
         </h3>
-        <ul class="links">
+        <ul>
           {% for item in popularArticles limit: 5 %}
             <li>
               <a href="{{ item.url }}">
@@ -37,12 +36,19 @@ eleventyNavigation:
           <a href="/articles" class="button">All Articles</a>
         </footer>
       </section>
-
+      <section>
+        <h3>
+          <a href="https://www.amazon.com/Learning-Progressive-Apps-Wargo-John-ebook/dp/B084T4JK3S" target="_blank">Learning Progressive Web Apps</a>
+        </h3>
+        <p>My latest book teaches you how to build Progressive Web apps for desktops and mobile devices.</p>
+        <a href="https://www.amazon.com/Learning-Progressive-Apps-Wargo-John-ebook/dp/B084T4JK3S" target="_blank">
+          <img src="/images/learning-pwa-160.jpg" />
+        </a>
+      </section>         
     </div>
   </div>
   <div class="col-8  col-12-narrower imp-narrower">
     <div id="content">
-
       <article>
         <span class="image featured"><img src="/images/headers/cropped-wwa-header-cropped-1200.png" alt="" /></span>
         <header>

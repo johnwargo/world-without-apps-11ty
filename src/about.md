@@ -23,5 +23,5 @@ Since then, voice recognition and playback became core features on Android, Blac
 
 My plan for this site is to write periodic posts on topics related to voice interaction systems and what’s happening with traditional mobile apps being replaced by…experiences. My goal is to cover anything related to the WWA and to see if I can get some like-minded people to join in. Honestly, I don’t know how often I’ll have something to write, so your best bet is to subscribe to this site using the form to the right. If you’d like to contribute to the site, please let me know.
 
-John M. Wargo
+[John M. Wargo](https://johnwargo.com){target="_blank"}
 August 1, 2016
