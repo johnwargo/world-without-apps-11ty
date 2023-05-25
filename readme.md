@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8217dd04-95bb-4618-bea9-a3551d0b922d/deploy-status)](https://app.netlify.com/sites/world-without-apps/deploys)
 
-Static web site for [A World Without Apps](https://aworldwithoutappc.com).
+Static web site for [A World Without Apps](https://aworldwithoutapps.com).
 Netlify working site: [A World Without Apps](https://world-without-apps.netlify.app).
 
 ## Tasks
