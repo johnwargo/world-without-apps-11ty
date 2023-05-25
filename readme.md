@@ -26,8 +26,8 @@ Netlify working site: [A World Without Apps](https://world-without-apps.netlify.
 * [x] Add Google Analytics
 * [x] Top articles from Google Analytics
 * [x] Add Algolia index
-* [ ] Update home page content
-* [ ] Add Search page
+* [x] Update home page content
+* [x] Add Search page
 * [ ] Setup prod environment variable on netlify
 * [ ] Add domain to netlify
 * [ ] Switch DNS to Netlify
