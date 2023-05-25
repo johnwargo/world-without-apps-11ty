@@ -62,7 +62,7 @@ eleventyNavigation:
       </article>
 
       <h2>
-        <a href="{{ "/" | htmlBaseUrl }}articles">Recent Posts</a>
+        <a href="{{ "/" | htmlBaseUrl }}articles">Recent Articles</a>
       </h2>
 
       {% for post in latest_posts limit: 5 %}
@@ -96,6 +96,8 @@ eleventyNavigation:
           </p>
         </article>
       {% endfor %}
+      <br />
+      <a href="/articles" class="button">View All Articles</a>
     </div>
   </div>
 </div>
