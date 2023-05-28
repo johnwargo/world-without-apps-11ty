@@ -1,7 +1,7 @@
 ---
 tags: post
 title: Islands of AI Everywhere
-description: 
+description: You see examples of AI everywhere nowadays, but what we don't see is many examples of multiple models wired together to accomplish something. What we have is little islands of AI which minimizes its impact.
 date: 2023-05-28
 headerImage: /images/headers/joshua-hoehne-TsdelDFTP6Y-unsplash-1024.jpg
 categories:
