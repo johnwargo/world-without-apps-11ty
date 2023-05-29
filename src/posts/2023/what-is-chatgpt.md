@@ -1,7 +1,7 @@
 ---
 tags: post
 title: What is ChatGPT?
-description: 
+description: There's been a lot of press and anxiety lately about ChatGPT and other chat-based AI tools. In my view, the media isn't describing these tools very well, fostering the worldwide anxiety by choice, so I wrote this post to provide the details as I see them.
 date: 2023-05-29
 headerImage: 
 categories:
