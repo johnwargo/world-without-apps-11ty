@@ -4,6 +4,7 @@ title: This Site Restarted
 description: After a six-year hiatus, I'm finally back to writing articles on this site. Here's why...
 date: 2023-05-24
 headerImage: /images/headers/andy-hermawan-O1jUvZX9DOA-unsplash-1024.jpg
+headerImageAltText: An image of a rocket launching
 categories:
   - Miscellaneous
 ---

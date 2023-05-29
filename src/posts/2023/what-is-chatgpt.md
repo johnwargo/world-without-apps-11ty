@@ -3,12 +3,11 @@ tags: post
 title: What is ChatGPT?
 description: There's been a lot of press and anxiety lately about ChatGPT and other chat-based AI tools. In my view, the media isn't describing these tools very well, fostering the worldwide anxiety by choice, so I wrote this post to provide the details as I see them.
 date: 2023-05-29
-headerImage: 
+headerImage: /images/headers/hitesh-choudhary-t1PaIbMTJIM-unsplash-1024.jpg
+headerImageAltText: A man holding a post-it note with AI on it
 categories:
   - Artificial Intelligence
 ---
-
-{% image "src/images/headers/hitesh-choudhary-t1PaIbMTJIM-unsplash-1024.jpg", "A man holding a post-it note with AI on it", "image featured" %}
 
 Several friends asked me lately what I think of ChatGPT and the other chat systems we hear a lot about lately on television and other media. The world is absolutely freaking out about this tech with doomsayers announcing the end of humanity and pundits digging up pictures of the Terminator for their posts.
 
