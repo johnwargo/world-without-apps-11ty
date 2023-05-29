@@ -8,5 +8,5 @@ This is the code repository for the Eleventy version of the static web site for 
 
 ## Components
 
-Template: https://pixelarity.com/arcana
-Favicon Generator: https://www.favicon-generator.org/
+* Template: https://pixelarity.com/arcana
+* Favicon Generator: https://www.favicon-generator.org/
