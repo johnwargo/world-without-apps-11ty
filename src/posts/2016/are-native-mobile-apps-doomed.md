@@ -19,4 +19,3 @@ Pundits and bloggers are starting to pick up on the fact that mobile apps are de
 My argument here is that Agents, not apps, are the future of mobile. Apps are old news. So quaint, allowing me to do one thing, and hopefully do that one thing well when I can tie multiple systems together through agents and the WWA.
 
 We lost the chance to have one, universal agent we could all tune to our needs when Samsung purchased Viv. All we have right now is islands of interaction (Alexa, Google Now, Siri, Viv, and so on) with code-locked solutions. What will it take to kick this up to the next level?
-

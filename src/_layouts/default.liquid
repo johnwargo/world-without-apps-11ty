@@ -46,11 +46,17 @@ License: pixelarity.com/license
       <!-- Main -->
       <section class="wrapper style1">
         <div class="container">
-          {% if headerImage %}
-            <span class="image featured"><img src="{{ headerImage }}" alt="{{ headerImageAltText }}" /></span>
-          {% endif %}
-          {% if title %}
-            <h2>{{ title }}</h2>
+          {% if page.url != '/' %}
+            {% if headerImage %}
+              <span class="image featured"><img src="{{ headerImage }}" alt="{{ headerImageAltText }}" /></span>
+            {% else %}
+              {% if categories.length > 0 %}
+                <span class="image featured"><img src="/images/headers/category-{{ categories[0] | slugify }}.jpg" alt="{{ categories[0] }} image" /></span>
+              {% endif %}
+            {% endif %}
+            {% if title %}
+              <h2>{{ title }}</h2>
+            {% endif %}
           {% endif %}
           {{ content }}
         </div>
