@@ -3,8 +3,10 @@ tags: post
 title: Semantic Web Services
 description: Expanding the concept of the Semantec Web to Semantic Web Services.
 date: 2016-08-04
-headerImage: /images/connections-cropped.png
-categories: []
+headerImage: 
+headerAltText:
+categories: 
+  - Miscellaneous
 ---
 
 When I first started thinking about the World Without Apps, I wasn’t thinking it would be a smartphone phenomenon; instead I imagined everything except the smartphone being the key to this revolution (my house, car, office and so on). I never expected smartphone processors to be able to handle the load or that cloud technologies would be so prevalent and so powerful that they could support things like Google Now and Apple’s Siri. How wrong I was - smartphones are core to this WWA revolution, and I’ll write more about that later.
