@@ -42,4 +42,6 @@ I write this as the world is absolutely freaking out about Artificial Intelligen
 
 I’ll write more about this soon; I have some thoughts about ChatGPT and the like that I want to share with you, hopefully in the next few days.
 
+*** 
+
 Photo by [Joshua Hoehne](https://unsplash.com/@mrthetrain?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){target="_blank"} on [Unsplash](https://unsplash.com/photos/TsdelDFTP6Y?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){target="_blank"}.

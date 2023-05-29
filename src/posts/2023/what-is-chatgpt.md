@@ -67,4 +67,6 @@ Untangling the mess created by application of faulty ML models to anything will 
 
 We live in very interesting times and I’m excited to see this, but it’s going to be a rocky road unless Governments figure out how to create guardrails or, in absence of that, companies self-regulate themselves (which doesn’t seem likely).
 
-Photo by <a href="https://unsplash.com/@hiteshchoudhary?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hitesh Choudhary</a> on <a href="https://unsplash.com/photos/t1PaIbMTJIM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+*** 
+
+Photo by [Hitesh Choudhary](https://unsplash.com/@hiteshchoudhary?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){target="_blank"} on [Unsplash](https://unsplash.com/photos/t1PaIbMTJIM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){target="_blank"}.
