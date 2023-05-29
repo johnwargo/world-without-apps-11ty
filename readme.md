@@ -4,7 +4,7 @@
 
 This is the code repository for the Eleventy version of the static web site for [A World Without Apps](https://aworldwithoutapps.com).
 
-Netlify working site: [A World Without Apps](https://world-without-apps.netlify.app).
+![Home page](/images/home-page.png)
 
 ## Components
 
