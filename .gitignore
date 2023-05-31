@@ -2,6 +2,7 @@
 node_modules/
 px-arcana-html/
 _site/
+Corel Auto-Preserve/
 
 # Files
 package-lock.json
