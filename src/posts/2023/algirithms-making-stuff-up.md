@@ -9,7 +9,7 @@ categories:
   - Artificial Intelligence
 ---
 
-Not long after posting my previous article about ChatGPT (/posts/2023/what-is-chatgpt/), articles started popping up about a lawyer who used ChatGPT to write a brief for a court case and how it backfired on him because the generated brief had made up stuff in it.
+Not long after posting my previous article about [ChatGPT](/posts/2023/what-is-chatgpt){target="_blank"}, articles started popping up about a lawyer who used ChatGPT to write a brief for a court case and how it backfired on him because the generated brief had made up stuff in it.
 
 Of course it did.
 
