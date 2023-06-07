@@ -12,9 +12,14 @@ article h4 {
   position: relative;
   top: -1.7rem;
   font-size: 1.5rem;
+  padding-bottom: 0.8rem;
 }
 
 #header #wwa-logo {
    height: 5rem;
    margin-right: 0.6rem;
+}
+
+#header {
+   margin-top: 1.3rem;
 }
