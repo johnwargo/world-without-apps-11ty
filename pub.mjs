@@ -53,7 +53,6 @@ if (theArgs.length > 1) {
 // throw in a blank line on the console
 console.log();
 await $`gen-build-info src/_data`;
-await $`11ty-cat-pages`;
 console.log('\nBuilding site');
 await $`eleventy`;
 
