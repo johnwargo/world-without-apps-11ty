@@ -24,7 +24,6 @@
     "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@google-analytics/data": "^3.2.2",
-    "eleventy-category-pages": "^0.0.7",
     "eleventy-generate-category-pages": "^0.0.7",
     "eleventy-plugin-date": "^1.0.0",
     "eleventy-plugin-post-stats": "^0.0.7",
