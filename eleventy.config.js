@@ -23,7 +23,7 @@ module.exports = eleventyConfig => {
 
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
-	eleventyConfig.addPlugin(embedYouTube); 
+	eleventyConfig.addPlugin(embedYouTube);
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(pluginImages);
@@ -41,8 +41,12 @@ module.exports = eleventyConfig => {
 
 	eleventyConfig.setLibrary("md", markdownLib);
 
+	var firstRun = true;
 	eleventyConfig.on('eleventy.before', async ({ dir, runMode, outputMode }) => {
-		generateCategoryPages({}, true, false);
+		if (firstRun) {
+			firstRun = false;
+			generateCategoryPages({}, true, false);
+		}
 	});
 
 	eleventyConfig.addShortcode("getKeywords", function (categories) {
@@ -125,7 +129,7 @@ module.exports = eleventyConfig => {
 	// for (let i = 2009; i <= thisYear; i++) {
 	// 	eleventyConfig.addPassthroughCopy(`src/images/${i}/*`);
 	// }
-				
+
 	// Only minify HTML if we are in production because it slows builds
 	if (isProduction) {
 		eleventyConfig.addTransform('htmlmin', htmlMinTransform);
