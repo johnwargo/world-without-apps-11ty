@@ -21,7 +21,8 @@ There’s a spot in my neighborhood where tree branches partially cover the spee
 
 The car isn’t smart, it doesn’t truly understand speed limit signs. It has a built-in Machine Learning (ML) model it uses to tell if it ‘sees’ a speed limit sign, and, when it sees one, it uses another ML model to transcribe the numbers on the sign into a number the car uses to craft the speed limit graphic on the dash determine if it needs to flash the speed limit exceeded warning there as well.
 
-Flash forward 5 years and the car still gives me the exact same warning every single time I pass by that particular speed limit sign in my neighborhood. This happens, and I’m only guessing here, at least 100 times a year, probably more.
+Flash forward 5 years and the car still gives me the exact same warning every single time I pass by that particular speed limit sign in my neighborhood. This happens, and I’m only guessing here, at least 100 times a year, probably more. 
+
 Now, I can probably solve this problem by driving over there one day with lopping shears in the back of my car and asking the homeowner if I can trim the branches, and perhaps I will someday. But fixing the visibility of the sign is not the issue here.
 
 So we’re talking about Artificial Intelligence here, right? Where’s the intelligence?
