@@ -22,10 +22,10 @@ eleventyNavigation:
     <div id="sidebar">
       <section>
         <h3>
-          <a href="/popular">Most Viewed Posts</a>
+          <a href="/popular">Popular Posts</a>
         </h3>
         <ul>
-          {% for item in popularArticles limit: 5 %}
+          {% for item in topPosts %}
             <li>
               <a href="{{ item.url }}">
                 {{ item.title }}</a>
