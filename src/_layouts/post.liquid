@@ -20,6 +20,8 @@ layout: default
 
 {{ content }}
 
+{% include 'photo-credit.html' %}
+
 {% assign previousPost = collections.post | getPreviousCollectionItem %}
 {% assign nextPost = collections.post | getNextCollectionItem %}
 {% if nextPost %}

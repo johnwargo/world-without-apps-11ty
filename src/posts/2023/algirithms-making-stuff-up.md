@@ -37,7 +37,4 @@ Here are some links if you haven’t seen the story yet:
 * [A lawyer used ChatGPT to prepare a court filing. It went horribly awry.](https://www.cbsnews.com/news/lawyer-chatgpt-court-filing-avianca/){target="_blank"}
 * [Lawyer apologizes for fake court citations from ChatGPT](https://www.cnn.com/2023/05/27/business/chat-gpt-avianca-mata-lawyers/index.html){target="_blank"}
 
-***
-
 Photo by <a href="https://unsplash.com/@quinoal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Quino Al</a> on <a href="https://unsplash.com/photos/7agL8aasVzE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"  target="_blank">Unsplash</a>
- 
