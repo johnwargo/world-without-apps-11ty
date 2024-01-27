@@ -33,3 +33,5 @@ Someone can do this all day every day without needing any staff. For any human t
 If you happen to not get an unsolicited email, all you have to do is find the site, fill in a couple of information items and enter the process. If you're looking for a job and find a job, it's the easiest thing for you ever. Here's the site, Job Title, skills and location are all it needs to use AI to find potentially hundreds or thousands of potential job openings that match. 
 
 {% image "src/images/2024/genai-recruiter-3.png", "The culprit's web site - Automated Career Algorithm", "image featured" %}
+
+And this is an excellent example of what happens in the World Without Apps. 
