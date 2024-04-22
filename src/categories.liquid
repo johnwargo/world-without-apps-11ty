@@ -17,8 +17,8 @@ eleventyNavigation:
       <h4>
         <a href="{{ "/" | htmlBaseUrl }}categories/{{ catData.category | slugify }}/">{{ catData.category }}</a>
       </h4>
-      <p>({{ catData.count }} Post{%- if catData.count > 1 %}s{% endif %})</span>
-      {%- if catData.description.length > 0 %} | {{ catData.description }}{% endif %}</p>
+      <p>{{ catData.count }} Post{%- if catData.count > 1 %}s{% endif %}</span>
+      {%- if catData.description.length > 0 %}&nbsp;|&nbsp;{{ catData.description }}{% endif %}</p>
     </article>
   {% endfor %}
 {% else %}
