@@ -7,17 +7,17 @@
   {
     "category": "Developer Tools",
     "count": 2,
-    "description": ""
+    "description": "Articles about AI-driven developer tools."
   },
   {
     "category": "Microsoft Windows",
     "count": 1,
-    "description": ""
+    "description": "AI Capabilities in Microsoft Windows."
   },
   {
     "category": "Miscellaneous",
     "count": 3,
-    "description": ""
+    "description": "Stuff that didn't seem to match any other category."
   },
   {
     "category": "Natural Language Processing",
@@ -27,6 +27,6 @@
   {
     "category": "Uncategorized",
     "count": 6,
-    "description": "Posts without any category assigned."
+    "description": "Posts without any category assigned (slightly different than posts in the Miscellaneous category."
   }
 ]

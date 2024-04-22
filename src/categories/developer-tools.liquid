@@ -8,7 +8,7 @@
     "before": function(paginationData, fullData){ let data = paginationData.filter((item) => item.data.categories.includes('Developer Tools')); return Array.from(data).sort((a, b) => { return a.date < b.date ? 1 : -1; });}
   },
   "category": "Developer Tools",
-  "description": "Posts discussing Artificial Intelligence and Machine Learning.",
+  "description": "Articles about AI-driven developer tools.",
   "eleventyComputed": {
     "title": "{{ category }}"
   },

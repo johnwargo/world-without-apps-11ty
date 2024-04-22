@@ -8,7 +8,7 @@
     "before": function(paginationData, fullData){ let data = paginationData.filter((item) => item.data.categories.includes('Miscellaneous')); return Array.from(data).sort((a, b) => { return a.date < b.date ? 1 : -1; });}
   },
   "category": "Miscellaneous",
-  "description": "Posts discussing Artificial Intelligence and Machine Learning.",
+  "description": "Stuff that didn't seem to match any other category.",
   "eleventyComputed": {
     "title": "{{ category }}"
   },
