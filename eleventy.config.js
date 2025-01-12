@@ -1,14 +1,14 @@
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
-const { generateCategoryPages } = require('eleventy-generate-category-pages');
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const embedYouTube = require('eleventy-plugin-youtube-embed');
 const markdownIt = require('markdown-it');
 const markdownItAttrs = require('markdown-it-attrs');
 const pluginDate = require('eleventy-plugin-date');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
-const pluginStats = require('eleventy-plugin-post-stats');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
-
+// my plugins
+const { generateCategoryPages } = require('eleventy-generate-category-pages');
+const pluginStats = require('eleventy-plugin-post-stats');
 // local plugins
 const pluginImages = require("./eleventy.config.images.js");
 
@@ -27,8 +27,9 @@ module.exports = eleventyConfig => {
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(pluginImages);
-	eleventyConfig.addPlugin(pluginStats);
 	eleventyConfig.addPlugin(syntaxHighlight);
+	// my plugins
+	eleventyConfig.addPlugin(pluginStats);
 
 	// https://github.com/11ty/eleventy/issues/2301
 	const mdOptions = {
