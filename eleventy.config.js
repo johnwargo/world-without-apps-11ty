@@ -7,7 +7,7 @@ const pluginDate = require('eleventy-plugin-date');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 // my plugins
-const { generateCategoryPages } = require('eleventy-generate-category-pages');
+const generateCategoryPages = require('eleventy-generate-category-pages');
 // local plugins
 const pluginImages = require("./eleventy.config.images.js");
 // https://learneleventyfromscratch.com/lesson/31.html#minifying-html-output
@@ -17,7 +17,6 @@ const htmlMinTransform = require('./src/transforms/html-min.js');
 const isProduction = process.env.NODE_ENV === 'production';
 
 module.exports = eleventyConfig => {
-
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	eleventyConfig.addPlugin(embedYouTube);
