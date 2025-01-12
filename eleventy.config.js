@@ -11,8 +11,6 @@ const { generateCategoryPages } = require('eleventy-generate-category-pages');
 const pluginStats = require('eleventy-plugin-post-stats');
 // local plugins
 const pluginImages = require("./eleventy.config.images.js");
-
-// Transforms
 // https://learneleventyfromscratch.com/lesson/31.html#minifying-html-output
 const htmlMinTransform = require('./src/transforms/html-min.js');
 
@@ -26,10 +24,11 @@ module.exports = eleventyConfig => {
 	eleventyConfig.addPlugin(embedYouTube);
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);
-	eleventyConfig.addPlugin(pluginImages);
 	eleventyConfig.addPlugin(syntaxHighlight);
 	// my plugins
 	eleventyConfig.addPlugin(pluginStats);
+	// local plugins
+	eleventyConfig.addPlugin(pluginImages);
 
 	// https://github.com/11ty/eleventy/issues/2301
 	const mdOptions = {
