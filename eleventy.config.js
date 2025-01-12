@@ -8,7 +8,6 @@ const pluginRss = require('@11ty/eleventy-plugin-rss');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 // my plugins
 const { generateCategoryPages } = require('eleventy-generate-category-pages');
-const pluginStats = require('eleventy-plugin-post-stats');
 // local plugins
 const pluginImages = require("./eleventy.config.images.js");
 // https://learneleventyfromscratch.com/lesson/31.html#minifying-html-output
@@ -25,9 +24,6 @@ module.exports = eleventyConfig => {
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(syntaxHighlight);
-	// my plugins
-	eleventyConfig.addPlugin(pluginStats);
-	// local plugins
 	eleventyConfig.addPlugin(pluginImages);
 
 	// https://github.com/11ty/eleventy/issues/2301
