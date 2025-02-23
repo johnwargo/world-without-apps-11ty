@@ -8,7 +8,7 @@
     "before": function(paginationData, fullData){ let data = paginationData.filter((item) => item.data.categories && item.data.categories.includes('Microsoft Windows')); return Array.from(data).sort((a, b) => { return a.date < b.date ? 1 : -1; });}
   },
   "category": "Microsoft Windows",
-  "description": "AI Capabilities in Microsoft Windows.",
+  "description": "Posts discussing AI Capabilities in Microsoft Windows.",
   "eleventyComputed": {
     "title": "{{ category }}"
   },
