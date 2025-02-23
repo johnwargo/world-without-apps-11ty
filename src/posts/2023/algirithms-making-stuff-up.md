@@ -1,12 +1,21 @@
 ---
 tags: post
-title: Algirithms Making Stuff Up
-description: 
+title: Algorithms Making Stuff Up
+description: The recent incident involving a lawyer using ChatGPT to write a
+  court brief and it backfiring due to fabricated content highlights the
+  limitations of the algorithm. ChatGPT is a next word prediction algorithm, not
+  a research engine, so it generates content based on its training data. In this
+  case, the algorithm made up references in the legal brief because it lacked
+  real examples. To avoid such issues, combining next word prediction algorithms
+  with research algorithms can ensure accuracy and relevance in generated
+  content. The incident underscores the importance of understanding the
+  capabilities and limitations of standalone AI algorithms.
 date: 2023-05-31
 headerImage: /images/headers/quino-al-7agL8aasVzE-unsplash-1024.jpg
 headerImageAltText: A picture of a clown
 categories:
   - Artificial Intelligence
+generatedDescription: true
 ---
 
 Not long after posting my previous article about [ChatGPT](/posts/2023/what-is-chatgpt){target="_blank"}, articles started popping up about a lawyer who used ChatGPT to write a brief for a court case and how it backfired on him because the generated brief had made up stuff in it.
